@@ -1,0 +1,8 @@
+Simple embedded web application in Ruby for use in Android Devices.
+
+Featured on my blog at http://leone.panopticdev.com
+
+For demonstrative and educational purposes.
+
+This application is built to run on Scripting Layer for Android: 
+http://code.google.com/p/android-scripting/
