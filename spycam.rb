@@ -2,9 +2,6 @@ APP_DIR = File.expand_path File.dirname(__FILE__)
 GEM_DIR = File.join(APP_DIR, 'vendor', 'gems')
 PUBLIC_DIR = File.join(APP_DIR, 'public')
 
-
-Dir.entries(GEM_DIR).each{|dir| $LOAD_PATH << File.join GEM_DIR, dir, 'lib'}
-
 # Vendorize all gems in vendor directory.
 Dir.entries(GEM_DIR).each do |dir| 
   gem_lib = File.join GEM_DIR, dir, 'lib'
